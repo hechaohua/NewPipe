@@ -8,7 +8,7 @@ import androidx.room.PrimaryKey;
 import static org.schabi.newpipe.database.playlist.model.PlaylistEntity.PLAYLIST_NAME;
 import static org.schabi.newpipe.database.playlist.model.PlaylistEntity.PLAYLIST_TABLE;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 
 @Entity(tableName = PLAYLIST_TABLE,
         indices = {@Index(value = {PLAYLIST_NAME})})

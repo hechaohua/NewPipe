@@ -31,8 +31,8 @@ import androidx.annotation.Nullable;
 import androidx.core.text.HtmlCompat;
 import androidx.preference.PreferenceManager;
 
-import org.schabi.newpipe.MainActivity;
-import org.schabi.newpipe.R;
+import com.driverolder.MainActivity;
+import com.driverolder.R;
 import org.schabi.newpipe.extractor.Info;
 import org.schabi.newpipe.extractor.InfoItem;
 import org.schabi.newpipe.extractor.ListExtractor.InfoItemsPage;

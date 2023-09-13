@@ -17,8 +17,9 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.schabi.newpipe.local.feed.service
+package com.driverolder.local.feed.service
 
+import android.annotation.SuppressLint
 import android.app.Service
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -31,18 +32,20 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.app.PendingIntentCompat
 import androidx.core.app.ServiceCompat
+import com.driverolder.App
+import com.driverolder.MainActivity.DEBUG
+import com.driverolder.R
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.disposables.Disposable
 import io.reactivex.rxjava3.functions.Function
-import org.schabi.newpipe.App
-import org.schabi.newpipe.MainActivity.DEBUG
-import org.schabi.newpipe.R
 import org.schabi.newpipe.database.feed.model.FeedGroupEntity
 import org.schabi.newpipe.extractor.ListInfo
 import org.schabi.newpipe.extractor.stream.StreamInfoItem
 import org.schabi.newpipe.local.feed.service.FeedEventManager.Event.ErrorResultEvent
 import org.schabi.newpipe.local.feed.service.FeedEventManager.postEvent
+import org.schabi.newpipe.local.feed.service.FeedLoadManager
+import org.schabi.newpipe.local.feed.service.FeedLoadState
 import java.util.concurrent.TimeUnit
 
 class FeedLoadService : Service() {
@@ -173,6 +176,7 @@ class FeedLoadService : Service() {
             .subscribe(this::updateNotificationProgress)
     }
 
+    @SuppressLint("MissingPermission")
     private fun updateNotificationProgress(state: FeedLoadState) {
         notificationBuilder.setProgress(state.maxProgress, state.currentProgress, state.maxProgress == -1)
 

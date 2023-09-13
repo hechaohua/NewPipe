@@ -2,7 +2,7 @@ package org.schabi.newpipe.local.feed.notifications
 
 import android.content.Context
 import androidx.preference.PreferenceManager
-import org.schabi.newpipe.R
+import com.driverolder.R
 import java.util.concurrent.TimeUnit
 
 /**

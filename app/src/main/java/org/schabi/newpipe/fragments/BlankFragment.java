@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import androidx.annotation.Nullable;
 
 import org.schabi.newpipe.BaseFragment;
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 
 public class BlankFragment extends BaseFragment {
     @Nullable

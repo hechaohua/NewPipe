@@ -3,7 +3,7 @@ package org.schabi.newpipe.util
 import android.content.pm.PackageManager
 import android.content.pm.Signature
 import androidx.core.content.pm.PackageInfoCompat
-import org.schabi.newpipe.App
+import com.driverolder.App
 import org.schabi.newpipe.error.ErrorInfo
 import org.schabi.newpipe.error.ErrorUtil.Companion.createNotification
 import org.schabi.newpipe.error.UserAction

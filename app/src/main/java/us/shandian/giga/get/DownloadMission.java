@@ -1,5 +1,7 @@
 package us.shandian.giga.get;
 
+import static com.driverolder.BuildConfig.DEBUG;
+
 import android.os.Handler;
 import android.system.ErrnoException;
 import android.system.OsConstants;
@@ -29,8 +31,6 @@ import org.schabi.newpipe.streams.io.StoredFileHelper;
 import us.shandian.giga.postprocessing.Postprocessing;
 import us.shandian.giga.service.DownloadManagerService;
 import us.shandian.giga.util.Utility;
-
-import static org.schabi.newpipe.BuildConfig.DEBUG;
 
 public class DownloadMission extends Mission {
     private static final long serialVersionUID = 6L;// last bump: 07 october 2019

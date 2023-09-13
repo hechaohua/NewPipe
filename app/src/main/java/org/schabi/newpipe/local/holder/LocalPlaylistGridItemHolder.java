@@ -2,7 +2,7 @@ package org.schabi.newpipe.local.holder;
 
 import android.view.ViewGroup;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.local.LocalItemBuilder;
 
 public class LocalPlaylistGridItemHolder extends LocalPlaylistItemHolder {

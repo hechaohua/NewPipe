@@ -9,7 +9,7 @@ import android.widget.TextView
 import androidx.annotation.ColorInt
 import androidx.core.animation.addListener
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator
-import org.schabi.newpipe.MainActivity
+import com.driverolder.MainActivity
 
 private const val TAG = "TextViewUtils"
 

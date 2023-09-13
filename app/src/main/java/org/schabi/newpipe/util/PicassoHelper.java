@@ -1,6 +1,6 @@
 package org.schabi.newpipe.util;
 
-import static org.schabi.newpipe.MainActivity.DEBUG;
+import static com.driverolder.MainActivity.DEBUG;
 import static org.schabi.newpipe.extractor.utils.Utils.isBlank;
 
 import android.annotation.SuppressLint;
@@ -18,7 +18,7 @@ import com.squareup.picasso.Picasso;
 import com.squareup.picasso.RequestCreator;
 import com.squareup.picasso.Transformation;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 
 import java.io.File;
 import java.io.IOException;

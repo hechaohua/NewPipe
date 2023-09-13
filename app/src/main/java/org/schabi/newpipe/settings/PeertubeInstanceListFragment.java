@@ -29,10 +29,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.grack.nanojson.JsonStringWriter;
 import com.grack.nanojson.JsonWriter;
 
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.databinding.DialogEditTextBinding;
-import org.schabi.newpipe.databinding.FragmentInstanceListBinding;
-import org.schabi.newpipe.databinding.ItemInstanceBinding;
+import com.driverolder.R;
+import com.driverolder.databinding.DialogEditTextBinding;
+import com.driverolder.databinding.FragmentInstanceListBinding;
+import com.driverolder.databinding.ItemInstanceBinding;
 import org.schabi.newpipe.extractor.services.peertube.PeertubeInstance;
 import org.schabi.newpipe.util.Constants;
 import org.schabi.newpipe.util.PeertubeHelper;

@@ -25,7 +25,7 @@ import androidx.annotation.NonNull;
 import androidx.preference.PreferenceManager;
 
 import org.schabi.newpipe.NewPipeDatabase;
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.database.AppDatabase;
 import org.schabi.newpipe.database.LocalItem;
 import org.schabi.newpipe.database.history.dao.SearchHistoryDAO;

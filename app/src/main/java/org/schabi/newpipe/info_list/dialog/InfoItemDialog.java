@@ -1,6 +1,6 @@
 package org.schabi.newpipe.info_list.dialog;
 
-import static org.schabi.newpipe.MainActivity.DEBUG;
+import static com.driverolder.MainActivity.DEBUG;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,8 +15,8 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 import androidx.preference.PreferenceManager;
 
-import org.schabi.newpipe.App;
-import org.schabi.newpipe.R;
+import com.driverolder.App;
+import com.driverolder.R;
 import org.schabi.newpipe.error.ErrorInfo;
 import org.schabi.newpipe.error.ErrorUtil;
 import org.schabi.newpipe.error.UserAction;

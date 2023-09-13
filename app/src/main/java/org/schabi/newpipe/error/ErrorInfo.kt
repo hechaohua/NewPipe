@@ -2,10 +2,10 @@ package org.schabi.newpipe.error
 
 import android.os.Parcelable
 import androidx.annotation.StringRes
+import com.driverolder.R
 import com.google.android.exoplayer2.ExoPlaybackException
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
-import org.schabi.newpipe.R
 import org.schabi.newpipe.extractor.Info
 import org.schabi.newpipe.extractor.exceptions.AccountTerminatedException
 import org.schabi.newpipe.extractor.exceptions.ContentNotAvailableException

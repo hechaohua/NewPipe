@@ -11,7 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.extractor.stream.AudioStream;
 import org.schabi.newpipe.util.StreamItemAdapter.StreamSizeWrapper;
 

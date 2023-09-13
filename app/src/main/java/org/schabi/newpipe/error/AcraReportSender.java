@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import org.acra.ReportField;
 import org.acra.data.CrashReportData;
 import org.acra.sender.ReportSender;
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 
 /*
  * Created by Christian Schabesberger  on 13.09.16.

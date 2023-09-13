@@ -9,8 +9,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.math.MathUtils
 import androidx.core.view.isVisible
-import org.schabi.newpipe.MainActivity
-import org.schabi.newpipe.R
+import com.driverolder.MainActivity
+import com.driverolder.R
 import org.schabi.newpipe.ktx.AnimationType
 import org.schabi.newpipe.ktx.animate
 import org.schabi.newpipe.player.Player

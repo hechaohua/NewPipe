@@ -25,10 +25,10 @@ import androidx.core.widget.TextViewCompat;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceViewHolder;
 
-import org.schabi.newpipe.App;
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.databinding.ListRadioIconItemBinding;
-import org.schabi.newpipe.databinding.SingleChoiceDialogViewBinding;
+import com.driverolder.App;
+import com.driverolder.R;
+import com.driverolder.databinding.ListRadioIconItemBinding;
+import com.driverolder.databinding.SingleChoiceDialogViewBinding;
 import org.schabi.newpipe.player.notification.NotificationConstants;
 import org.schabi.newpipe.util.DeviceUtils;
 import org.schabi.newpipe.util.ThemeHelper;

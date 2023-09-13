@@ -18,6 +18,7 @@
  */
 package org.schabi.newpipe.views;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
@@ -42,7 +43,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.view.WindowCallbackWrapper;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 
 import java.lang.ref.WeakReference;
 
@@ -211,6 +212,7 @@ public final class FocusOverlayView extends Drawable implements
         setupOverlay(window, overlay);
     }
 
+    @SuppressLint("RestrictedApi")
     private static void setupOverlay(final Window window, final FocusOverlayView overlay) {
         final ViewGroup decor = (ViewGroup) window.getDecorView();
         decor.getOverlay().add(overlay);

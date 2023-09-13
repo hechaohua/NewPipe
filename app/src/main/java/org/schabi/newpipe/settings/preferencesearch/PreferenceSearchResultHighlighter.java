@@ -17,7 +17,7 @@ import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceGroup;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 
 
 public final class PreferenceSearchResultHighlighter {

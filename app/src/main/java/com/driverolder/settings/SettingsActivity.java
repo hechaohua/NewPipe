@@ -1,4 +1,4 @@
-package org.schabi.newpipe.settings;
+package com.driverolder.settings;
 
 import static org.schabi.newpipe.util.Localization.assureCorrectAppLanguage;
 
@@ -23,9 +23,11 @@ import androidx.preference.PreferenceFragmentCompat;
 
 import com.jakewharton.rxbinding4.widget.RxTextView;
 
-import org.schabi.newpipe.MainActivity;
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.databinding.SettingsLayoutBinding;
+import com.driverolder.MainActivity;
+import com.driverolder.R;
+import com.driverolder.databinding.SettingsLayoutBinding;
+import org.schabi.newpipe.settings.MainSettingsFragment;
+import org.schabi.newpipe.settings.SettingsResourceRegistry;
 import org.schabi.newpipe.settings.preferencesearch.PreferenceParser;
 import org.schabi.newpipe.settings.preferencesearch.PreferenceSearchConfiguration;
 import org.schabi.newpipe.settings.preferencesearch.PreferenceSearchFragment;

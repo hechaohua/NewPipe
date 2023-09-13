@@ -6,7 +6,7 @@ import android.widget.Toast;
 import androidx.preference.Preference;
 
 import org.schabi.newpipe.NewVersionWorker;
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 
 public class UpdateSettingsFragment extends BasePreferenceFragment {
     private final Preference.OnPreferenceChangeListener updatePreferenceChange = (p, nVal) -> {

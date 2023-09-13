@@ -15,9 +15,9 @@ import androidx.documentfile.provider.DocumentFile;
 
 import com.nononsenseapps.filepicker.Utils;
 
-import org.schabi.newpipe.MainActivity;
+import com.driverolder.MainActivity;
 import org.schabi.newpipe.settings.NewPipeSettings;
-import org.schabi.newpipe.util.FilePickerActivityHelper;
+import com.driverolder.util.FilePickerActivityHelper;
 
 import java.io.File;
 import java.io.IOException;

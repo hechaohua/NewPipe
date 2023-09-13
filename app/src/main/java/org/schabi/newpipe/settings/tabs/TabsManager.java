@@ -6,7 +6,7 @@ import android.widget.Toast;
 
 import androidx.preference.PreferenceManager;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 
 import java.util.List;
 

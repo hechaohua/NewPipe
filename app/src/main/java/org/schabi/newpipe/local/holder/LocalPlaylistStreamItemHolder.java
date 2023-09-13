@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.database.LocalItem;
 import org.schabi.newpipe.database.playlist.PlaylistStreamEntry;
 import org.schabi.newpipe.ktx.ViewUtils;

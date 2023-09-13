@@ -23,7 +23,7 @@ import androidx.preference.PreferenceManager;
 
 import org.schabi.newpipe.DownloaderImpl;
 import org.schabi.newpipe.NewPipeDatabase;
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.error.ErrorUtil;
 import org.schabi.newpipe.extractor.NewPipe;
 import org.schabi.newpipe.extractor.localization.ContentCountry;

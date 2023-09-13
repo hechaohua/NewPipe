@@ -1,6 +1,6 @@
 package org.schabi.newpipe.player.mediasession;
 
-import static org.schabi.newpipe.MainActivity.DEBUG;
+import static com.driverolder.MainActivity.DEBUG;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -16,7 +16,7 @@ import androidx.media.session.MediaButtonReceiver;
 import com.google.android.exoplayer2.ForwardingPlayer;
 import com.google.android.exoplayer2.ext.mediasession.MediaSessionConnector;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.player.Player;
 import org.schabi.newpipe.player.ui.PlayerUi;
 import org.schabi.newpipe.player.ui.VideoPlayerUi;

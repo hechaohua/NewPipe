@@ -9,13 +9,13 @@ import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.driverolder.R
+import com.driverolder.databinding.FragmentChannelsNotificationsBinding
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.disposables.Disposable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.schabi.newpipe.R
 import org.schabi.newpipe.database.subscription.NotificationMode
-import org.schabi.newpipe.databinding.FragmentChannelsNotificationsBinding
 import org.schabi.newpipe.local.subscription.SubscriptionManager
 
 /**

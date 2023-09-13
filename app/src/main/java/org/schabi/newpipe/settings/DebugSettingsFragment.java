@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import androidx.preference.Preference;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.error.ErrorInfo;
 import org.schabi.newpipe.error.ErrorUtil;
 import org.schabi.newpipe.error.UserAction;
@@ -110,7 +110,7 @@ public class DebugSettingsFragment extends BasePreferenceFragment {
      */
     public interface DebugSettingsBVDLeakCanaryAPI {
         String IMPL_CLASS =
-                "org.schabi.newpipe.settings.DebugSettingsBVDLeakCanary";
+                "com.driverolder.DebugSettingsBVDLeakCanary";
 
         Intent getNewLeakDisplayActivityIntent();
     }

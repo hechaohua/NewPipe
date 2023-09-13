@@ -8,8 +8,10 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import com.driverolder.local.feed.service.FeedLoadService;
+
 import org.schabi.newpipe.NewPipeDatabase;
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.database.stream.model.StreamEntity;
 import org.schabi.newpipe.error.ErrorInfo;
 import org.schabi.newpipe.error.ErrorUtil;
@@ -36,7 +38,7 @@ public final class SparseItemUtil {
      * stream info item you are handling might be sparse, e.g. because it was fetched via a {@link
      * org.schabi.newpipe.extractor.feed.FeedExtractor}. FeedExtractors provide a fast and
      * lightweight method to fetch info, but the info might be incomplete (see
-     * {@link org.schabi.newpipe.local.feed.service.FeedLoadService} for more details).
+     * {@link FeedLoadService} for more details).
      *
      * @param context  Android context
      * @param item     item which is checked and eventually loaded completely

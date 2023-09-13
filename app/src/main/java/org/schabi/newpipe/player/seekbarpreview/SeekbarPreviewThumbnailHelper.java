@@ -13,7 +13,7 @@ import androidx.core.graphics.BitmapCompat;
 import androidx.core.math.MathUtils;
 import androidx.preference.PreferenceManager;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.util.DeviceUtils;
 
 import java.lang.annotation.Retention;

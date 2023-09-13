@@ -1,6 +1,8 @@
-package org.schabi.newpipe.settings;
+package com.driverolder;
 
 import android.content.Intent;
+
+import org.schabi.newpipe.settings.DebugSettingsFragment;
 
 import leakcanary.LeakCanary;
 

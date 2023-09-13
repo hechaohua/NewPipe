@@ -1,5 +1,7 @@
 package us.shandian.giga.service;
 
+import static com.driverolder.BuildConfig.DEBUG;
+
 import android.content.Context;
 import android.os.Handler;
 import android.util.Log;
@@ -22,8 +24,6 @@ import us.shandian.giga.get.sqlite.FinishedMissionStore;
 import org.schabi.newpipe.streams.io.StoredDirectoryHelper;
 import org.schabi.newpipe.streams.io.StoredFileHelper;
 import us.shandian.giga.util.Utility;
-
-import static org.schabi.newpipe.BuildConfig.DEBUG;
 
 public class DownloadManager {
     private static final String TAG = DownloadManager.class.getSimpleName();

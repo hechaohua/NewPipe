@@ -1,4 +1,4 @@
-package org.schabi.newpipe.error;
+package com.driverolder.error;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -21,9 +21,9 @@ import androidx.core.app.NavUtils;
 import androidx.preference.PreferenceManager;
 
 import org.schabi.newpipe.DownloaderImpl;
-import org.schabi.newpipe.MainActivity;
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.databinding.ActivityRecaptchaBinding;
+import com.driverolder.MainActivity;
+import com.driverolder.R;
+import com.driverolder.databinding.ActivityRecaptchaBinding;
 import org.schabi.newpipe.extractor.utils.Utils;
 import org.schabi.newpipe.util.ThemeHelper;
 
@@ -163,7 +163,7 @@ public class ReCaptchaActivity extends AppCompatActivity {
         // Navigate to blank page (unloads youtube to prevent background playback)
         recaptchaBinding.reCaptchaWebView.loadUrl("about:blank");
 
-        final Intent intent = new Intent(this, org.schabi.newpipe.MainActivity.class);
+        final Intent intent = new Intent(this, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         NavUtils.navigateUpTo(this, intent);
     }

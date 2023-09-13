@@ -28,8 +28,8 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.schabi.newpipe.BuildConfig;
-import org.schabi.newpipe.MainActivity;
+import com.driverolder.BuildConfig;
+import com.driverolder.MainActivity;
 
 import java.io.File;
 import java.io.FileInputStream;

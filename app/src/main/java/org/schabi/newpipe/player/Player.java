@@ -63,6 +63,7 @@ import androidx.annotation.Nullable;
 import androidx.core.math.MathUtils;
 import androidx.preference.PreferenceManager;
 
+import com.driverolder.player.PlayerService;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.DefaultRenderersFactory;
 import com.google.android.exoplayer2.ExoPlayer;
@@ -80,9 +81,9 @@ import com.google.android.exoplayer2.video.VideoSize;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 
-import org.schabi.newpipe.MainActivity;
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.databinding.PlayerBinding;
+import com.driverolder.MainActivity;
+import com.driverolder.R;
+import com.driverolder.databinding.PlayerBinding;
 import org.schabi.newpipe.error.ErrorInfo;
 import org.schabi.newpipe.error.ErrorUtil;
 import org.schabi.newpipe.error.UserAction;
@@ -1995,7 +1996,7 @@ public final class Player implements PlaybackListener, Listener {
         }
     }
 
-    void setActivityListener(final PlayerEventListener listener) {
+    public void setActivityListener(final PlayerEventListener listener) {
         activityListener = listener;
         // TODO why not queue update?
         notifyMetadataUpdateToListeners();
@@ -2003,7 +2004,7 @@ public final class Player implements PlaybackListener, Listener {
         triggerProgressUpdate();
     }
 
-    void removeActivityListener(final PlayerEventListener listener) {
+    public void removeActivityListener(final PlayerEventListener listener) {
         if (activityListener == listener) {
             activityListener = null;
         }

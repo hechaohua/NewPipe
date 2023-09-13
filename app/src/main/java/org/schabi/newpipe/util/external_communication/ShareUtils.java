@@ -1,6 +1,6 @@
 package org.schabi.newpipe.util.external_communication;
 
-import static org.schabi.newpipe.MainActivity.DEBUG;
+import static com.driverolder.MainActivity.DEBUG;
 
 import android.content.ActivityNotFoundException;
 import android.content.ClipData;
@@ -21,8 +21,8 @@ import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.FileProvider;
 
-import org.schabi.newpipe.BuildConfig;
-import org.schabi.newpipe.R;
+import com.driverolder.BuildConfig;
+import com.driverolder.R;
 import org.schabi.newpipe.util.PicassoHelper;
 
 import java.io.File;

@@ -3,8 +3,10 @@ package org.schabi.newpipe.error;
 import android.app.Activity;
 
 import org.junit.Test;
-import org.schabi.newpipe.MainActivity;
-import org.schabi.newpipe.RouterActivity;
+import com.driverolder.MainActivity;
+import com.driverolder.error.ErrorActivity;
+
+import com.driverolder.RouterActivity;
 import org.schabi.newpipe.fragments.detail.VideoDetailFragment;
 
 import static org.junit.Assert.assertEquals;

@@ -26,12 +26,12 @@ import androidx.core.content.ContextCompat;
 import com.google.android.material.snackbar.Snackbar;
 import com.jakewharton.rxbinding4.view.RxView;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.database.subscription.NotificationMode;
 import org.schabi.newpipe.database.subscription.SubscriptionEntity;
-import org.schabi.newpipe.databinding.ChannelHeaderBinding;
-import org.schabi.newpipe.databinding.FragmentChannelBinding;
-import org.schabi.newpipe.databinding.PlaylistControlBinding;
+import com.driverolder.databinding.ChannelHeaderBinding;
+import com.driverolder.databinding.FragmentChannelBinding;
+import com.driverolder.databinding.PlaylistControlBinding;
 import org.schabi.newpipe.error.ErrorInfo;
 import org.schabi.newpipe.error.ErrorUtil;
 import org.schabi.newpipe.error.UserAction;

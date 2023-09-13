@@ -8,8 +8,8 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.databinding.ItemSearchSuggestionBinding;
+import com.driverolder.R;
+import com.driverolder.databinding.ItemSearchSuggestionBinding;
 
 public class SuggestionListAdapter
         extends ListAdapter<SuggestionItem, SuggestionListAdapter.SuggestionItemHolder> {

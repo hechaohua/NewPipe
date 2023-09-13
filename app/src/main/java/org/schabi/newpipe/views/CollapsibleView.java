@@ -39,7 +39,7 @@ import icepick.Icepick;
 import icepick.State;
 
 import static java.lang.annotation.RetentionPolicy.SOURCE;
-import static org.schabi.newpipe.MainActivity.DEBUG;
+import static com.driverolder.MainActivity.DEBUG;
 
 /**
  * A view that can be fully collapsed and expanded.

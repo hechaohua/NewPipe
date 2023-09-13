@@ -11,7 +11,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
 
-import org.schabi.newpipe.MainActivity;
+import com.driverolder.MainActivity;
 import org.schabi.newpipe.util.ThemeHelper;
 
 import java.util.Objects;

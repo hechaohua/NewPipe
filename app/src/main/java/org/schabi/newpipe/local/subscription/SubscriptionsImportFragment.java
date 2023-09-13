@@ -1,10 +1,10 @@
 package org.schabi.newpipe.local.subscription;
 
 import static org.schabi.newpipe.extractor.subscription.SubscriptionExtractor.ContentSource.CHANNEL_URL;
-import static org.schabi.newpipe.local.subscription.services.SubscriptionsImportService.CHANNEL_URL_MODE;
-import static org.schabi.newpipe.local.subscription.services.SubscriptionsImportService.INPUT_STREAM_MODE;
-import static org.schabi.newpipe.local.subscription.services.SubscriptionsImportService.KEY_MODE;
-import static org.schabi.newpipe.local.subscription.services.SubscriptionsImportService.KEY_VALUE;
+import static com.driverolder.local.subscription.services.SubscriptionsImportService.CHANNEL_URL_MODE;
+import static com.driverolder.local.subscription.services.SubscriptionsImportService.INPUT_STREAM_MODE;
+import static com.driverolder.local.subscription.services.SubscriptionsImportService.KEY_MODE;
+import static com.driverolder.local.subscription.services.SubscriptionsImportService.KEY_VALUE;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -28,14 +28,14 @@ import androidx.appcompat.app.ActionBar;
 import androidx.core.text.util.LinkifyCompat;
 
 import org.schabi.newpipe.BaseFragment;
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.error.ErrorInfo;
 import org.schabi.newpipe.error.ErrorUtil;
 import org.schabi.newpipe.error.UserAction;
 import org.schabi.newpipe.extractor.NewPipe;
 import org.schabi.newpipe.extractor.exceptions.ExtractionException;
 import org.schabi.newpipe.extractor.subscription.SubscriptionExtractor;
-import org.schabi.newpipe.local.subscription.services.SubscriptionsImportService;
+import com.driverolder.local.subscription.services.SubscriptionsImportService;
 import org.schabi.newpipe.streams.io.NoFileManagerSafeGuard;
 import org.schabi.newpipe.streams.io.StoredFileHelper;
 import org.schabi.newpipe.util.Constants;

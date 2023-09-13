@@ -23,10 +23,10 @@ import androidx.preference.SwitchPreferenceCompat;
 
 import com.nononsenseapps.filepicker.Utils;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.streams.io.NoFileManagerSafeGuard;
 import org.schabi.newpipe.streams.io.StoredDirectoryHelper;
-import org.schabi.newpipe.util.FilePickerActivityHelper;
+import com.driverolder.util.FilePickerActivityHelper;
 
 import java.io.File;
 import java.io.IOException;

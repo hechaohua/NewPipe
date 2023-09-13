@@ -4,7 +4,7 @@ import android.view.ViewGroup;
 
 import androidx.annotation.Nullable;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.info_list.InfoItemBuilder;
 
 public class ChannelCardInfoItemHolder extends ChannelMiniInfoItemHolder {

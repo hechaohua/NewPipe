@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 
 /**
  * Created by Christian Schabesberger on 01.08.16.

@@ -13,10 +13,10 @@ import androidx.core.content.ContextCompat;
 import com.google.android.exoplayer2.PlaybackException;
 import com.google.android.exoplayer2.PlaybackParameters;
 
-import org.schabi.newpipe.App;
-import org.schabi.newpipe.MainActivity;
+import com.driverolder.App;
+import com.driverolder.MainActivity;
 import org.schabi.newpipe.extractor.stream.StreamInfo;
-import org.schabi.newpipe.player.PlayerService;
+import com.driverolder.player.PlayerService;
 import org.schabi.newpipe.player.Player;
 import org.schabi.newpipe.player.PlayerType;
 import org.schabi.newpipe.player.event.PlayerServiceEventListener;

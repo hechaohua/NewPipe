@@ -4,7 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.XmlRes;
 import androidx.fragment.app.Fragment;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 
 import java.util.HashSet;
 import java.util.Objects;

@@ -1,7 +1,7 @@
 package org.schabi.newpipe.local.subscription
 
 import androidx.annotation.DrawableRes
-import org.schabi.newpipe.R
+import com.driverolder.R
 
 enum class FeedGroupIcon(
     /**

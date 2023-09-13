@@ -7,8 +7,8 @@ import androidx.annotation.DrawableRes;
 import androidx.annotation.IntDef;
 import androidx.annotation.NonNull;
 
-import org.schabi.newpipe.App;
-import org.schabi.newpipe.R;
+import com.driverolder.App;
+import com.driverolder.R;
 import org.schabi.newpipe.util.Localization;
 
 import java.lang.annotation.Retention;

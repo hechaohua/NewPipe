@@ -3,11 +3,11 @@ package org.schabi.newpipe.local.subscription.item
 import android.view.View
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
+import com.driverolder.R
+import com.driverolder.databinding.PickerSubscriptionItemBinding
 import com.xwray.groupie.viewbinding.BindableItem
 import com.xwray.groupie.viewbinding.GroupieViewHolder
-import org.schabi.newpipe.R
 import org.schabi.newpipe.database.subscription.SubscriptionEntity
-import org.schabi.newpipe.databinding.PickerSubscriptionItemBinding
 import org.schabi.newpipe.ktx.AnimationType
 import org.schabi.newpipe.ktx.animate
 import org.schabi.newpipe.util.PicassoHelper

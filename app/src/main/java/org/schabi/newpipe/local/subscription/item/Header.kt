@@ -1,9 +1,9 @@
 package org.schabi.newpipe.local.subscription.item
 
 import android.view.View
+import com.driverolder.R
+import com.driverolder.databinding.SubscriptionHeaderBinding
 import com.xwray.groupie.viewbinding.BindableItem
-import org.schabi.newpipe.R
-import org.schabi.newpipe.databinding.SubscriptionHeaderBinding
 
 class Header(private val title: String) : BindableItem<SubscriptionHeaderBinding>() {
 

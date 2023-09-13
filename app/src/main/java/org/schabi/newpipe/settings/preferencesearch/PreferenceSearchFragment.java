@@ -10,7 +10,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import org.schabi.newpipe.databinding.SettingsPreferencesearchFragmentBinding;
+import com.driverolder.databinding.SettingsPreferencesearchFragmentBinding;
 
 import java.util.List;
 

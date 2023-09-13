@@ -12,7 +12,7 @@ import androidx.preference.ListPreference;
 
 import com.google.android.material.snackbar.Snackbar;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.util.PermissionHelper;
 
 import java.util.LinkedList;

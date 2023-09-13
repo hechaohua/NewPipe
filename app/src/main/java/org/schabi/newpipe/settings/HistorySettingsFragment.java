@@ -9,10 +9,10 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.preference.Preference;
 
 import org.schabi.newpipe.DownloaderImpl;
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.error.ErrorInfo;
 import org.schabi.newpipe.error.ErrorUtil;
-import org.schabi.newpipe.error.ReCaptchaActivity;
+import com.driverolder.error.ReCaptchaActivity;
 import org.schabi.newpipe.error.UserAction;
 import org.schabi.newpipe.local.history.HistoryRecordManager;
 import org.schabi.newpipe.util.InfoCache;

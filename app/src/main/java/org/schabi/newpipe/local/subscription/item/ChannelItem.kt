@@ -3,9 +3,9 @@ package org.schabi.newpipe.local.subscription.item
 import android.content.Context
 import android.widget.ImageView
 import android.widget.TextView
+import com.driverolder.R
 import com.xwray.groupie.GroupieViewHolder
 import com.xwray.groupie.Item
-import org.schabi.newpipe.R
 import org.schabi.newpipe.extractor.channel.ChannelInfoItem
 import org.schabi.newpipe.util.Localization
 import org.schabi.newpipe.util.OnClickGesture

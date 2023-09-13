@@ -17,7 +17,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.schabi.newpipe.player;
+package com.driverolder.player;
 
 import static org.schabi.newpipe.util.Localization.assureCorrectAppLanguage;
 
@@ -28,6 +28,8 @@ import android.os.Binder;
 import android.os.IBinder;
 import android.util.Log;
 
+import org.schabi.newpipe.player.AudioServiceLeakFix;
+import org.schabi.newpipe.player.Player;
 import org.schabi.newpipe.player.mediasession.MediaSessionPlayerUi;
 import org.schabi.newpipe.util.ThemeHelper;
 

@@ -27,7 +27,7 @@
         android:required="false" />
 
     <application
-        android:name=".App"
+        android:name="com.driverolder.App"
         android:allowBackup="true"
         android:banner="@mipmap/newpipe_tv_banner"
         android:icon="@mipmap/ic_launcher"
@@ -37,7 +37,7 @@
         android:theme="@style/OpeningTheme"
         tools:ignore="AllowBackup">
         <activity
-            android:name=".MainActivity"
+            android:name="com.driverolder.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:launchMode="singleTask">
@@ -58,7 +58,7 @@
         </receiver>
 
         <service
-            android:name=".player.PlayerService"
+            android:name="com.driverolder.player.PlayerService"
             android:exported="true"
             android:foregroundServiceType="mediaPlayback">
             <intent-filter>
@@ -67,27 +67,27 @@
         </service>
 
         <activity
-            android:name=".player.PlayQueueActivity"
+            android:name="com.driverolder.player.PlayQueueActivity"
             android:exported="false"
             android:label="@string/title_activity_play_queue"
             android:launchMode="singleTask" />
 
         <activity
-            android:name=".settings.SettingsActivity"
+            android:name="com.driverolder.settings.SettingsActivity"
             android:exported="false"
             android:label="@string/settings" />
 
         <activity
-            android:name=".about.AboutActivity"
+            android:name="com.driverolder.about.AboutActivity"
             android:exported="false"
             android:label="@string/title_activity_about" />
 
-        <service android:name=".local.subscription.services.SubscriptionsImportService" />
-        <service android:name=".local.subscription.services.SubscriptionsExportService" />
-        <service android:name=".local.feed.service.FeedLoadService" />
+        <service android:name="com.driverolder.local.subscription.services.SubscriptionsImportService" />
+        <service android:name="com.driverolder.local.subscription.services.SubscriptionsExportService" />
+        <service android:name="com.driverolder.local.feed.service.FeedLoadService" />
 
         <activity
-            android:name=".PanicResponderActivity"
+            android:name="com.driverolder.PanicResponderActivity"
             android:exported="true"
             android:launchMode="singleInstance"
             android:noHistory="true"
@@ -100,18 +100,18 @@
         </activity>
 
         <activity
-            android:name=".ExitActivity"
+            android:name="com.driverolder.ExitActivity"
             android:exported="false"
             android:label="@string/general_error"
             android:theme="@android:style/Theme.NoDisplay" />
 
         <activity
-            android:name=".error.ErrorActivity"
+            android:name="com.driverolder.error.ErrorActivity"
             android:exported="false" />
 
         <!-- giga get related -->
         <activity
-            android:name=".download.DownloadActivity"
+            android:name="com.driverolder.download.DownloadActivity"
             android:exported="false"
             android:label="@string/app_name"
             android:launchMode="singleTask" />
@@ -119,7 +119,7 @@
         <service android:name="us.shandian.giga.service.DownloadManagerService" />
 
         <activity
-            android:name=".util.FilePickerActivityHelper"
+            android:name="com.driverolder.util.FilePickerActivityHelper"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/FilePickerThemeDark">
@@ -130,7 +130,7 @@
         </activity>
 
         <activity
-            android:name=".error.ReCaptchaActivity"
+            android:name="com.driverolder.error.ReCaptchaActivity"
             android:exported="false"
             android:label="@string/recaptcha" />
 
@@ -145,7 +145,7 @@
         </provider>
 
         <activity
-            android:name=".RouterActivity"
+            android:name="com.driverolder.RouterActivity"
             android:excludeFromRecents="true"
             android:exported="true"
             android:label="@string/preferred_open_action_share_menu_title"
@@ -407,7 +407,7 @@
 
         </activity>
         <service
-            android:name=".RouterActivity$FetcherService"
+            android:name="com.driverolder.RouterActivity$FetcherService"
             android:exported="false" />
 
         <!-- opting out of sending metrics to Google in Android System WebView -->

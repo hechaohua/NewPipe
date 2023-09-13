@@ -1,9 +1,9 @@
 package org.schabi.newpipe.local.subscription.item
 
 import android.view.View
+import com.driverolder.R
+import com.driverolder.databinding.ListEmptyViewBinding
 import com.xwray.groupie.viewbinding.BindableItem
-import org.schabi.newpipe.R
-import org.schabi.newpipe.databinding.ListEmptyViewBinding
 
 /**
  * When there are no subscriptions, show a hint to the user about how to import subscriptions

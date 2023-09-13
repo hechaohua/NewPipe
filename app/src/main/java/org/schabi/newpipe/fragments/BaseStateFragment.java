@@ -14,7 +14,7 @@ import androidx.annotation.StringRes;
 import androidx.fragment.app.Fragment;
 
 import org.schabi.newpipe.BaseFragment;
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.error.ErrorInfo;
 import org.schabi.newpipe.error.ErrorPanelHelper;
 import org.schabi.newpipe.error.ErrorUtil;

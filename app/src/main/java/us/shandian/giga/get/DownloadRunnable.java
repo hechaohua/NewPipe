@@ -13,7 +13,7 @@ import java.util.Objects;
 import us.shandian.giga.get.DownloadMission.Block;
 import us.shandian.giga.get.DownloadMission.HttpError;
 
-import static org.schabi.newpipe.BuildConfig.DEBUG;
+import static com.driverolder.BuildConfig.DEBUG;
 import static us.shandian.giga.get.DownloadMission.ERROR_HTTP_FORBIDDEN;
 
 

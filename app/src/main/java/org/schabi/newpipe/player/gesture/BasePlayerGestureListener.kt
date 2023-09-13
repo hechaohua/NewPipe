@@ -7,7 +7,7 @@ import android.view.GestureDetector
 import android.view.MotionEvent
 import android.view.View
 import androidx.core.os.postDelayed
-import org.schabi.newpipe.databinding.PlayerBinding
+import com.driverolder.databinding.PlayerBinding
 import org.schabi.newpipe.player.Player
 import org.schabi.newpipe.player.ui.VideoPlayerUi
 

@@ -1,4 +1,4 @@
-package org.schabi.newpipe.player;
+package com.driverolder.player;
 
 import static org.schabi.newpipe.QueueItemMenuUtil.openPopupMenu;
 import static org.schabi.newpipe.player.helper.PlayerHelper.formatSpeed;
@@ -26,12 +26,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.exoplayer2.PlaybackParameters;
 
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.databinding.ActivityPlayerQueueControlBinding;
+import com.driverolder.R;
+import com.driverolder.databinding.ActivityPlayerQueueControlBinding;
 import org.schabi.newpipe.extractor.stream.AudioStream;
 import org.schabi.newpipe.extractor.stream.StreamInfo;
 import org.schabi.newpipe.fragments.OnScrollBelowItemsListener;
 import org.schabi.newpipe.local.dialog.PlaylistDialog;
+import org.schabi.newpipe.player.Player;
 import org.schabi.newpipe.player.event.PlayerEventListener;
 import org.schabi.newpipe.player.helper.PlaybackParameterDialog;
 import org.schabi.newpipe.player.mediaitem.MediaItemTag;

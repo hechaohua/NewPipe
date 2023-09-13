@@ -21,10 +21,10 @@ import androidx.core.text.HtmlCompat;
 import com.google.android.material.chip.Chip;
 
 import org.schabi.newpipe.BaseFragment;
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.databinding.FragmentDescriptionBinding;
-import org.schabi.newpipe.databinding.ItemMetadataBinding;
-import org.schabi.newpipe.databinding.ItemMetadataTagsBinding;
+import com.driverolder.R;
+import com.driverolder.databinding.FragmentDescriptionBinding;
+import com.driverolder.databinding.ItemMetadataBinding;
+import com.driverolder.databinding.ItemMetadataTagsBinding;
 import org.schabi.newpipe.extractor.stream.Description;
 import org.schabi.newpipe.extractor.stream.StreamInfo;
 import org.schabi.newpipe.util.Localization;

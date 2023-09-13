@@ -6,10 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
+import com.driverolder.R
+import com.driverolder.databinding.FragmentLicensesBinding
+import com.driverolder.databinding.ItemSoftwareComponentBinding
 import io.reactivex.rxjava3.disposables.CompositeDisposable
-import org.schabi.newpipe.R
-import org.schabi.newpipe.databinding.FragmentLicensesBinding
-import org.schabi.newpipe.databinding.ItemSoftwareComponentBinding
 
 /**
  * Fragment containing the software licenses.

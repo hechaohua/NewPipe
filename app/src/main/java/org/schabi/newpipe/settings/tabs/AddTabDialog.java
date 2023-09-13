@@ -13,7 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.AppCompatImageView;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 
 public final class AddTabDialog {
     private final AlertDialog dialog;

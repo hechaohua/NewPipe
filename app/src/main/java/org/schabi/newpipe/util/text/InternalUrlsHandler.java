@@ -6,8 +6,8 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 
-import org.schabi.newpipe.MainActivity;
-import org.schabi.newpipe.R;
+import com.driverolder.MainActivity;
+import com.driverolder.R;
 import org.schabi.newpipe.error.ErrorPanelHelper;
 import org.schabi.newpipe.extractor.NewPipe;
 import org.schabi.newpipe.extractor.StreamingService;

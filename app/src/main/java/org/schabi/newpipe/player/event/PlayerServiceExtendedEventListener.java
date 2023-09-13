@@ -1,6 +1,6 @@
 package org.schabi.newpipe.player.event;
 
-import org.schabi.newpipe.player.PlayerService;
+import com.driverolder.player.PlayerService;
 import org.schabi.newpipe.player.Player;
 
 public interface PlayerServiceExtendedEventListener extends PlayerServiceEventListener {

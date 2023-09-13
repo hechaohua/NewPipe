@@ -18,8 +18,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.databinding.PignateFooterBinding;
+import com.driverolder.R;
+import com.driverolder.databinding.PignateFooterBinding;
 import org.schabi.newpipe.fragments.BaseStateFragment;
 import org.schabi.newpipe.fragments.list.ListViewContract;
 import org.schabi.newpipe.info_list.ItemViewMode;

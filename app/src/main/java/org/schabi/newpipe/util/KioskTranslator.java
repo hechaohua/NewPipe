@@ -2,7 +2,7 @@ package org.schabi.newpipe.util;
 
 import android.content.Context;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 
 /**
  * Created by Christian Schabesberger on 28.09.17.

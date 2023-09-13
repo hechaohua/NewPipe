@@ -1,6 +1,6 @@
 package org.schabi.newpipe.player.helper;
 
-import static org.schabi.newpipe.MainActivity.DEBUG;
+import static com.driverolder.MainActivity.DEBUG;
 
 import android.content.Context;
 import android.util.Log;

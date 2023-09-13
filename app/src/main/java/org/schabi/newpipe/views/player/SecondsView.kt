@@ -6,8 +6,8 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
 import androidx.core.animation.addListener
-import org.schabi.newpipe.R
-import org.schabi.newpipe.databinding.PlayerFastSeekSecondsViewBinding
+import com.driverolder.R
+import com.driverolder.databinding.PlayerFastSeekSecondsViewBinding
 import org.schabi.newpipe.util.DeviceUtils
 
 class SecondsView(context: Context, attrs: AttributeSet?) : LinearLayout(context, attrs) {

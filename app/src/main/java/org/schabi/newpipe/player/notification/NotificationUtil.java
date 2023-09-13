@@ -17,8 +17,8 @@ import androidx.core.app.PendingIntentCompat;
 import androidx.core.app.ServiceCompat;
 import androidx.core.content.ContextCompat;
 
-import org.schabi.newpipe.MainActivity;
-import org.schabi.newpipe.R;
+import com.driverolder.MainActivity;
+import com.driverolder.R;
 import org.schabi.newpipe.player.Player;
 import org.schabi.newpipe.player.mediasession.MediaSessionPlayerUi;
 import org.schabi.newpipe.util.NavigationHelper;
@@ -71,6 +71,7 @@ public final class NotificationUtil {
      * @param forceRecreate whether to force the recreation of the notification even if it already
      *                      exists
      */
+    @SuppressLint("MissingPermission")
     public synchronized void createNotificationIfNeededAndUpdate(final boolean forceRecreate) {
         if (forceRecreate || notificationBuilder == null) {
             notificationBuilder = createNotification();
@@ -79,6 +80,7 @@ public final class NotificationUtil {
         notificationManager.notify(NOTIFICATION_ID, notificationBuilder.build());
     }
 
+    @SuppressLint("MissingPermission")
     public synchronized void updateThumbnail() {
         if (notificationBuilder != null) {
             if (DEBUG) {

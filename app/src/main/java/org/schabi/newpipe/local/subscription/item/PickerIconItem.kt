@@ -2,9 +2,9 @@ package org.schabi.newpipe.local.subscription.item
 
 import android.view.View
 import androidx.annotation.DrawableRes
+import com.driverolder.R
+import com.driverolder.databinding.PickerIconItemBinding
 import com.xwray.groupie.viewbinding.BindableItem
-import org.schabi.newpipe.R
-import org.schabi.newpipe.databinding.PickerIconItemBinding
 import org.schabi.newpipe.local.subscription.FeedGroupIcon
 
 class PickerIconItem(

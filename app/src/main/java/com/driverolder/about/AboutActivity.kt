@@ -1,4 +1,4 @@
-package org.schabi.newpipe.about
+package com.driverolder.about
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,11 +11,14 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import com.driverolder.BuildConfig
+import com.driverolder.R
+import com.driverolder.databinding.ActivityAboutBinding
+import com.driverolder.databinding.FragmentAboutBinding
 import com.google.android.material.tabs.TabLayoutMediator
-import org.schabi.newpipe.BuildConfig
-import org.schabi.newpipe.R
-import org.schabi.newpipe.databinding.ActivityAboutBinding
-import org.schabi.newpipe.databinding.FragmentAboutBinding
+import org.schabi.newpipe.about.LicenseFragment
+import org.schabi.newpipe.about.SoftwareComponent
+import org.schabi.newpipe.about.StandardLicenses
 import org.schabi.newpipe.util.Localization
 import org.schabi.newpipe.util.ThemeHelper
 import org.schabi.newpipe.util.external_communication.ShareUtils

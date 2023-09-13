@@ -22,9 +22,9 @@ import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.ExoPlaybackException;
 import com.google.android.exoplayer2.PlaybackException;
 
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.databinding.ListRadioIconItemBinding;
-import org.schabi.newpipe.databinding.SingleChoiceDialogViewBinding;
+import com.driverolder.R;
+import com.driverolder.databinding.ListRadioIconItemBinding;
+import com.driverolder.databinding.SingleChoiceDialogViewBinding;
 import org.schabi.newpipe.player.Player;
 import org.schabi.newpipe.util.ThemeHelper;
 

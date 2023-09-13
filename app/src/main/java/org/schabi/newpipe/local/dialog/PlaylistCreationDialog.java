@@ -10,9 +10,9 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog.Builder;
 
 import org.schabi.newpipe.NewPipeDatabase;
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.database.stream.model.StreamEntity;
-import org.schabi.newpipe.databinding.DialogEditTextBinding;
+import com.driverolder.databinding.DialogEditTextBinding;
 import org.schabi.newpipe.local.playlist.LocalPlaylistManager;
 import org.schabi.newpipe.util.ThemeHelper;
 

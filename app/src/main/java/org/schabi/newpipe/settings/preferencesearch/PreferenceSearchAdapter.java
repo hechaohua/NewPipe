@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.schabi.newpipe.databinding.SettingsPreferencesearchListItemResultBinding;
+import com.driverolder.databinding.SettingsPreferencesearchListItemResultBinding;
 
 import java.util.function.Consumer;
 

@@ -1,4 +1,4 @@
-package org.schabi.newpipe.util;
+package com.driverolder.util;
 
 import android.content.Context;
 import android.net.Uri;
@@ -20,7 +20,8 @@ import androidx.recyclerview.widget.SortedList;
 import com.nononsenseapps.filepicker.AbstractFilePickerFragment;
 import com.nononsenseapps.filepicker.FilePickerFragment;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
+import org.schabi.newpipe.util.ThemeHelper;
 
 import java.io.File;
 

@@ -1,5 +1,6 @@
 package org.schabi.newpipe.local.feed.notifications
 
+import android.annotation.SuppressLint
 import android.app.Notification
 import android.app.NotificationManager
 import android.app.PendingIntent
@@ -16,9 +17,9 @@ import androidx.core.app.PendingIntentCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.getSystemService
 import androidx.preference.PreferenceManager
+import com.driverolder.R
 import com.squareup.picasso.Picasso
 import com.squareup.picasso.Target
-import org.schabi.newpipe.R
 import org.schabi.newpipe.extractor.stream.StreamInfoItem
 import org.schabi.newpipe.local.feed.service.FeedUpdateInfo
 import org.schabi.newpipe.util.NavigationHelper
@@ -82,6 +83,7 @@ class NotificationHelper(val context: Context) {
 
         // a Target is like a listener for image loading events
         val target = object : Target {
+            @SuppressLint("MissingPermission")
             override fun onBitmapLoaded(bitmap: Bitmap, from: Picasso.LoadedFrom) {
                 // set channel icon only if there is actually one (for Android versions < 7.0)
                 summaryBuilder.setLargeIcon(bitmap)
@@ -95,6 +97,7 @@ class NotificationHelper(val context: Context) {
                 iconLoadingTargets.remove(this) // allow it to be garbage-collected
             }
 
+            @SuppressLint("MissingPermission")
             override fun onBitmapFailed(e: Exception, errorDrawable: Drawable) {
                 // Show individual stream notifications
                 showStreamNotifications(newStreams, data.listInfo.serviceId, null)
@@ -115,6 +118,7 @@ class NotificationHelper(val context: Context) {
         PicassoHelper.loadNotificationIcon(data.avatarUrl).into(target)
     }
 
+    @SuppressLint("MissingPermission")
     private fun showStreamNotifications(
         newStreams: List<StreamInfoItem>,
         serviceId: Int,

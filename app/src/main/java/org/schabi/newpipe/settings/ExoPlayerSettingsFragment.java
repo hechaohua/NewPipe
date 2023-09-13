@@ -8,7 +8,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceManager;
 import androidx.preference.SwitchPreferenceCompat;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 
 public class ExoPlayerSettingsFragment extends BasePreferenceFragment {
 

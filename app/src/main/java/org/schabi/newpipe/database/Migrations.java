@@ -6,7 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.room.migration.Migration;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
-import org.schabi.newpipe.MainActivity;
+import com.driverolder.MainActivity;
 
 public final class Migrations {
 

@@ -18,7 +18,7 @@
  * along with NewPipe.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.schabi.newpipe;
+package com.driverolder;
 
 import static org.schabi.newpipe.util.Localization.assureCorrectAppLanguage;
 
@@ -56,11 +56,12 @@ import androidx.preference.PreferenceManager;
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
-import org.schabi.newpipe.databinding.ActivityMainBinding;
-import org.schabi.newpipe.databinding.DrawerHeaderBinding;
-import org.schabi.newpipe.databinding.DrawerLayoutBinding;
-import org.schabi.newpipe.databinding.InstanceSpinnerLayoutBinding;
-import org.schabi.newpipe.databinding.ToolbarLayoutBinding;
+import org.schabi.newpipe.NewVersionWorker;
+import com.driverolder.databinding.ActivityMainBinding;
+import com.driverolder.databinding.DrawerHeaderBinding;
+import com.driverolder.databinding.DrawerLayoutBinding;
+import com.driverolder.databinding.InstanceSpinnerLayoutBinding;
+import com.driverolder.databinding.ToolbarLayoutBinding;
 import org.schabi.newpipe.error.ErrorUtil;
 import org.schabi.newpipe.extractor.NewPipe;
 import org.schabi.newpipe.extractor.StreamingService;

@@ -7,8 +7,10 @@ import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
 
-import org.schabi.newpipe.MainActivity;
-import org.schabi.newpipe.R;
+import com.driverolder.MainActivity;
+import com.driverolder.settings.SettingsActivity;
+
+import com.driverolder.R;
 import org.schabi.newpipe.util.ReleaseVersionUtil;
 
 public class MainSettingsFragment extends BasePreferenceFragment {

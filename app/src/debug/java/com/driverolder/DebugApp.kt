@@ -1,10 +1,11 @@
-package org.schabi.newpipe
+package com.driverolder
 
 import androidx.preference.PreferenceManager
 import com.facebook.stetho.Stetho
 import com.facebook.stetho.okhttp3.StethoInterceptor
 import leakcanary.LeakCanary
 import okhttp3.OkHttpClient
+import org.schabi.newpipe.DownloaderImpl
 import org.schabi.newpipe.extractor.downloader.Downloader
 
 class DebugApp : App() {

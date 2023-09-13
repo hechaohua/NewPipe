@@ -17,7 +17,7 @@ import androidx.core.view.isGone
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator
-import org.schabi.newpipe.MainActivity
+import com.driverolder.MainActivity
 
 private const val TAG = "ViewUtils"
 

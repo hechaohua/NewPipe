@@ -1,5 +1,6 @@
 package org.schabi.newpipe
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.util.Log
@@ -16,6 +17,9 @@ import androidx.work.WorkManager
 import androidx.work.Worker
 import androidx.work.WorkerParameters
 import androidx.work.workDataOf
+import com.driverolder.BuildConfig
+import com.driverolder.MainActivity
+import com.driverolder.R
 import com.grack.nanojson.JsonParser
 import com.grack.nanojson.JsonParserException
 import org.schabi.newpipe.extractor.downloader.Response
@@ -38,6 +42,7 @@ class NewVersionWorker(
      * @param apkLocationUrl Url with the new apk
      * @param versionCode    Code of new version
      */
+    @SuppressLint("MissingPermission")
     private fun compareAppVersionAndShowNotification(
         versionName: String,
         apkLocationUrl: String?,

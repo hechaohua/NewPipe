@@ -9,7 +9,7 @@ import android.widget.Toast;
 import androidx.core.app.ActivityCompat;
 import androidx.preference.Preference;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.util.Constants;
 import org.schabi.newpipe.util.ThemeHelper;
 

@@ -24,8 +24,8 @@ import androidx.core.math.MathUtils;
 import androidx.fragment.app.DialogFragment;
 import androidx.preference.PreferenceManager;
 
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.databinding.DialogPlaybackParameterBinding;
+import com.driverolder.R;
+import com.driverolder.databinding.DialogPlaybackParameterBinding;
 import org.schabi.newpipe.player.ui.VideoPlayerUi;
 import org.schabi.newpipe.util.SimpleOnSeekBarChangeListener;
 import org.schabi.newpipe.util.SliderStrategy;

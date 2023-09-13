@@ -27,7 +27,7 @@ import com.grack.nanojson.JsonObject;
 import com.grack.nanojson.JsonParser;
 import com.grack.nanojson.JsonWriter;
 
-import org.schabi.newpipe.BuildConfig;
+import com.driverolder.BuildConfig;
 import org.schabi.newpipe.extractor.subscription.SubscriptionExtractor.InvalidSourceException;
 import org.schabi.newpipe.extractor.subscription.SubscriptionItem;
 

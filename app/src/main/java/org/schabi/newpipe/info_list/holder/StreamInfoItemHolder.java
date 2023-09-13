@@ -4,7 +4,7 @@ import android.text.TextUtils;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.extractor.InfoItem;
 import org.schabi.newpipe.extractor.stream.StreamInfoItem;
 import org.schabi.newpipe.extractor.stream.StreamType;
@@ -14,7 +14,7 @@ import org.schabi.newpipe.util.Localization;
 
 import androidx.preference.PreferenceManager;
 
-import static org.schabi.newpipe.MainActivity.DEBUG;
+import static com.driverolder.MainActivity.DEBUG;
 
 /*
  * Created by Christian Schabesberger on 01.08.16.

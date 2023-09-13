@@ -2,9 +2,9 @@ package org.schabi.newpipe.local.subscription.item
 
 import android.view.View
 import androidx.core.view.isVisible
+import com.driverolder.R
+import com.driverolder.databinding.SubscriptionGroupsHeaderBinding
 import com.xwray.groupie.viewbinding.BindableItem
-import org.schabi.newpipe.R
-import org.schabi.newpipe.databinding.SubscriptionGroupsHeaderBinding
 
 class GroupsHeader(
     private val title: String,

@@ -10,7 +10,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 
 import icepick.Icepick;
 import icepick.State;

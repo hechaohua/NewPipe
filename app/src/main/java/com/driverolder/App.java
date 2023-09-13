@@ -1,4 +1,4 @@
-package org.schabi.newpipe;
+package com.driverolder;
 
 import android.app.Application;
 import android.content.Context;
@@ -14,7 +14,8 @@ import com.jakewharton.processphoenix.ProcessPhoenix;
 
 import org.acra.ACRA;
 import org.acra.config.CoreConfigurationBuilder;
-import org.schabi.newpipe.error.ReCaptchaActivity;
+import org.schabi.newpipe.DownloaderImpl;
+import com.driverolder.error.ReCaptchaActivity;
 import org.schabi.newpipe.extractor.NewPipe;
 import org.schabi.newpipe.extractor.downloader.Downloader;
 import org.schabi.newpipe.ktx.ExceptionUtils;

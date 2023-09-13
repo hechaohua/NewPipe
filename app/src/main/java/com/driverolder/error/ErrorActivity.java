@@ -1,4 +1,4 @@
-package org.schabi.newpipe.error;
+package com.driverolder.error;
 
 import static org.schabi.newpipe.util.Localization.assureCorrectAppLanguage;
 
@@ -20,10 +20,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.grack.nanojson.JsonWriter;
 
-import org.schabi.newpipe.BuildConfig;
-import org.schabi.newpipe.MainActivity;
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.databinding.ActivityErrorBinding;
+import com.driverolder.BuildConfig;
+import com.driverolder.MainActivity;
+import com.driverolder.R;
+import com.driverolder.databinding.ActivityErrorBinding;
+import org.schabi.newpipe.error.ErrorInfo;
+import org.schabi.newpipe.error.ErrorUtil;
+import org.schabi.newpipe.error.UserAction;
 import org.schabi.newpipe.util.Localization;
 import org.schabi.newpipe.util.ThemeHelper;
 import org.schabi.newpipe.util.external_communication.ShareUtils;
@@ -193,7 +196,7 @@ public class ErrorActivity extends AppCompatActivity {
      * @return the casted return activity or null
      */
     @Nullable
-    static Class<? extends Activity> getReturnActivity(final Class<?> returnActivity) {
+    public static Class<? extends Activity> getReturnActivity(final Class<?> returnActivity) {
         Class<? extends Activity> checkedReturnActivity = null;
         if (returnActivity != null) {
             if (Activity.class.isAssignableFrom(returnActivity)) {

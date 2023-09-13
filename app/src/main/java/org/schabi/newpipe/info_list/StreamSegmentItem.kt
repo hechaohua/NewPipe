@@ -3,9 +3,9 @@ package org.schabi.newpipe.info_list
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import com.driverolder.R
 import com.xwray.groupie.GroupieViewHolder
 import com.xwray.groupie.Item
-import org.schabi.newpipe.R
 import org.schabi.newpipe.extractor.stream.StreamSegment
 import org.schabi.newpipe.util.Localization
 import org.schabi.newpipe.util.PicassoHelper

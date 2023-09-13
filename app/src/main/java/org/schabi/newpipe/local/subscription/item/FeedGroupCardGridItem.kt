@@ -1,10 +1,10 @@
 package org.schabi.newpipe.local.subscription.item
 
 import android.view.View
+import com.driverolder.R
+import com.driverolder.databinding.FeedGroupCardGridItemBinding
 import com.xwray.groupie.viewbinding.BindableItem
-import org.schabi.newpipe.R
 import org.schabi.newpipe.database.feed.model.FeedGroupEntity
-import org.schabi.newpipe.databinding.FeedGroupCardGridItemBinding
 import org.schabi.newpipe.local.subscription.FeedGroupIcon
 
 data class FeedGroupCardGridItem(

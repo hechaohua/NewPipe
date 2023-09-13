@@ -19,6 +19,7 @@
 
 package org.schabi.newpipe.local.subscription.services;
 
+import android.annotation.SuppressLint;
 import android.app.Service;
 import android.content.Intent;
 import android.os.Build;
@@ -34,7 +35,7 @@ import androidx.core.app.NotificationManagerCompat;
 import androidx.core.app.ServiceCompat;
 
 import org.reactivestreams.Publisher;
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.error.ErrorInfo;
 import org.schabi.newpipe.error.ErrorUtil;
 import org.schabi.newpipe.error.UserAction;
@@ -130,6 +131,7 @@ public abstract class BaseImportExportService extends Service {
                 .subscribe(this::updateNotification));
     }
 
+    @SuppressLint("MissingPermission")
     protected void updateNotification(final String text) {
         notificationBuilder
                 .setProgress(maxProgress.get(), currentProgress.get(), maxProgress.get() == -1);
@@ -157,6 +159,7 @@ public abstract class BaseImportExportService extends Service {
                 throwable, UserAction.SUBSCRIPTION_IMPORT_EXPORT, request));
     }
 
+    @SuppressLint("MissingPermission")
     protected void postErrorResult(final String title, final String text) {
         disposeAll();
         ServiceCompat.stopForeground(this, ServiceCompat.STOP_FOREGROUND_REMOVE);

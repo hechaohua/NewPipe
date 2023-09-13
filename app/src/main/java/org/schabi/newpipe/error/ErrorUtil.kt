@@ -1,5 +1,6 @@
 package org.schabi.newpipe.error
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.app.PendingIntent
 import android.content.Context
@@ -11,8 +12,9 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.app.PendingIntentCompat
 import androidx.fragment.app.Fragment
+import com.driverolder.R
+import com.driverolder.error.ErrorActivity
 import com.google.android.material.snackbar.Snackbar
-import org.schabi.newpipe.R
 
 /**
  * This class contains all of the methods that should be used to let the user know that an error has
@@ -102,6 +104,7 @@ class ErrorUtil {
          *                  [ErrorInfo.messageStringId] will be shown in the notification
          *                  description
          */
+        @SuppressLint("MissingPermission")
         @JvmStatic
         fun createNotification(context: Context, errorInfo: ErrorInfo) {
             val notificationBuilder: NotificationCompat.Builder =

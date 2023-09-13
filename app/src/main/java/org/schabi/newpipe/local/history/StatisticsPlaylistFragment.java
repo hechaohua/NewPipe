@@ -19,12 +19,12 @@ import com.google.android.material.snackbar.Snackbar;
 
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
-import org.schabi.newpipe.R;
+import com.driverolder.R;
 import org.schabi.newpipe.database.LocalItem;
 import org.schabi.newpipe.database.stream.StreamStatisticsEntry;
 import org.schabi.newpipe.database.stream.model.StreamEntity;
-import org.schabi.newpipe.databinding.PlaylistControlBinding;
-import org.schabi.newpipe.databinding.StatisticPlaylistControlBinding;
+import com.driverolder.databinding.PlaylistControlBinding;
+import com.driverolder.databinding.StatisticPlaylistControlBinding;
 import org.schabi.newpipe.error.ErrorInfo;
 import org.schabi.newpipe.error.UserAction;
 import org.schabi.newpipe.extractor.stream.StreamInfoItem;

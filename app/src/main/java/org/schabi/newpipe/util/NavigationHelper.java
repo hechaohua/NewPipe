@@ -22,13 +22,13 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.jakewharton.processphoenix.ProcessPhoenix;
 
-import org.schabi.newpipe.MainActivity;
+import com.driverolder.MainActivity;
 import org.schabi.newpipe.NewPipeDatabase;
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.RouterActivity;
-import org.schabi.newpipe.about.AboutActivity;
+import com.driverolder.R;
+import com.driverolder.RouterActivity;
+import com.driverolder.about.AboutActivity;
 import org.schabi.newpipe.database.feed.model.FeedGroupEntity;
-import org.schabi.newpipe.download.DownloadActivity;
+import com.driverolder.download.DownloadActivity;
 import org.schabi.newpipe.extractor.NewPipe;
 import org.schabi.newpipe.extractor.StreamingService;
 import org.schabi.newpipe.extractor.exceptions.ExtractionException;
@@ -50,15 +50,15 @@ import org.schabi.newpipe.local.history.StatisticsPlaylistFragment;
 import org.schabi.newpipe.local.playlist.LocalPlaylistFragment;
 import org.schabi.newpipe.local.subscription.SubscriptionFragment;
 import org.schabi.newpipe.local.subscription.SubscriptionsImportFragment;
-import org.schabi.newpipe.player.PlayQueueActivity;
+import com.driverolder.player.PlayQueueActivity;
 import org.schabi.newpipe.player.Player;
-import org.schabi.newpipe.player.PlayerService;
+import com.driverolder.player.PlayerService;
 import org.schabi.newpipe.player.PlayerType;
 import org.schabi.newpipe.player.helper.PlayerHelper;
 import org.schabi.newpipe.player.helper.PlayerHolder;
 import org.schabi.newpipe.player.playqueue.PlayQueue;
 import org.schabi.newpipe.player.playqueue.PlayQueueItem;
-import org.schabi.newpipe.settings.SettingsActivity;
+import com.driverolder.settings.SettingsActivity;
 import org.schabi.newpipe.util.external_communication.ShareUtils;
 
 import java.util.List;

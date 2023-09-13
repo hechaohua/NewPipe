@@ -24,8 +24,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.preference.PreferenceManager;
 
-import org.schabi.newpipe.App;
-import org.schabi.newpipe.R;
+import com.driverolder.App;
+import com.driverolder.R;
 
 import java.lang.reflect.Method;
 
