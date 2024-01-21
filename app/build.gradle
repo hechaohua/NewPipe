@@ -17,7 +17,7 @@ android {
 
     defaultConfig {
         applicationId "com.driverolder"
-        resValue "string", "app_name", "DriverOlder"
+        // resValue "string", "app_name", "DriverOlder"
         minSdk 21
         targetSdk 33
         versionCode 996
@@ -42,10 +42,10 @@ android {
             if (normalizedWorkingBranch.isEmpty() || workingBranch == "master" || workingBranch == "dev") {
                 // default values when branch name could not be determined or is master or dev
                 applicationIdSuffix ".debug"
-                resValue "string", "app_name", "DriverOlder Debug"
+                // resValue "string", "app_name", "DriverOlder Debug"
             } else {
                 applicationIdSuffix ".debug" //+ normalizedWorkingBranch
-                resValue "string", "app_name", "DriverOlder " //+ workingBranch
+                // resValue "string", "app_name", "DriverOlder " //+ workingBranch
                 archivesBaseName = 'DriverOlder_' + normalizedWorkingBranch
             }
         }
@@ -53,7 +53,7 @@ android {
         release {
             if (System.properties.containsKey('packageSuffix')) {
                 applicationIdSuffix System.getProperty('packageSuffix')
-                resValue "string", "app_name", "DriverOlder " // + System.getProperty('packageSuffix')
+                // resValue "string", "app_name", "DriverOlder " // + System.getProperty('packageSuffix')
                 archivesBaseName = 'DriverOlder_' + System.getProperty('packageSuffix')
             }
             minifyEnabled true
